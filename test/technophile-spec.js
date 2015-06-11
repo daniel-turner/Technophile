@@ -10,7 +10,7 @@ var SmartWatch = require('../lib/SmartWatch');
 var SmartPhone = require('../lib/SmartPhone');
 
 describe('Phone', function() {
-  
+
   var phone;
   beforeEach(function () {
     phone = new Phone(5555555);
@@ -32,7 +32,7 @@ describe('Phone', function() {
 });
 
 describe('Tablet', function() {
-  
+
   var tablet;
   beforeEach(function () {
     tablet = new Tablet();
@@ -51,7 +51,7 @@ describe('Tablet', function() {
 });
 
 describe('Game Console', function() {
-  
+
   var gameConsole;
   beforeEach(function () {
     gameConsole = new GameConsole('Jupiter Station');
@@ -73,7 +73,7 @@ describe('Game Console', function() {
 });
 
 describe('Web Browser', function() {
-  
+
   var webBrowser;
   beforeEach(function () {
     webBrowser = new WebBrowser();
@@ -92,7 +92,7 @@ describe('Web Browser', function() {
 });
 
 describe('Watch', function() {
-  
+
   var watch;
   beforeEach(function () {
     watch = new Watch();
@@ -109,11 +109,11 @@ describe('Watch', function() {
     watch.wear('left wrist');
     watch.bodyPart.should.be.equal('left wrist');
   });
-  
+
 });
 
 describe('Nintendo DS', function() {
-  
+
   var nds;
   beforeEach(function () {
     nds = new NintendoDS();
@@ -147,7 +147,7 @@ describe('Nintendo DS', function() {
 });
 
 describe('SmartWatch', function() {
-  
+
   var sw;
   beforeEach(function () {
     sw = new SmartWatch();
@@ -180,7 +180,7 @@ describe('SmartWatch', function() {
 });
 
 describe('SmartPhone', function() {
-  
+
   var sp;
   beforeEach(function () {
     sp = new SmartPhone(3333333);
